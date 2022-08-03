@@ -1,0 +1,90 @@
+body {
+  background-color: #f6f8fc;
+  font-family: 'Space Mono', monospace;
+  color: #59617e;
+  font-size: 14px;
+  line-height: normal;
+}
+
+h1 {
+  color: #4a4d5e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: rgb(61, 60, 164) wavy underline;
+}
+
+h2 {
+  color: #bc3247;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a {
+  color: #bc3247;
+  text-decoration: rgb(61, 60, 164) wavy underline;
+  transition: 0.3;
+}
+
+a:hover {
+  color: #4a4d5e;
+}
+
+img {
+  width: 250px;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  margin: 10px 0;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+.list-inline a {
+  color: #59617e;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  transition: 0.3;
+}
+
+.list-inline a:hover {
+  color: #1d1e1f;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
